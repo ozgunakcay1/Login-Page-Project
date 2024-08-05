@@ -10,7 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url(2nd.jpg);
+    background-image: url(/img/2nd.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 30%;
@@ -50,11 +50,12 @@ body{
     font-size: 16px;
     border: 2px solid rgba(255, 255, 255, .3);
     padding: 15px 45px 15px 20px;
+    
 
 }
 
 .input-box input::placeholder{
-    color: #white;
+    color: rgb(255, 251, 251);
 }
 
 .input-box i{
@@ -113,3 +114,20 @@ body{
     
 }
 
+@media (max-width:440px){
+    .container{
+        width: 90% ;
+     
+    }
+
+    .input-box input::placeholder{
+        font-size: smaller;
+       
+}
+
+.container .remember-me{
+    font-size: smaller;
+    align-items: center;
+    
+}
+}
